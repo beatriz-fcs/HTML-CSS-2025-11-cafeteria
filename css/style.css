@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Bodoni Bk BT', Georgia, 'Times New Roman', Times, serif;
+
+    background-color: blanchedalmond;
+    color: #563022;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Swis721 BlkCn BT', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center; /*vertical*/
+
+    width: 100%;
+    height: auto;
+
+    background-color: #28140e;
+    color: blanchedalmond;
+}
+
+.header h1 {
+    width: 48%;
+    padding-left: 1%;
+}
+
+.header nav {
+    width: 50%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.header nav ul {
+    list-style: none;
+    /*remover bolinhas*/
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header nav ul li {
+    display: inline-block;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    /*remover sublinhado*/
+    color: blanchedalmond;
+    padding: 15px 15px 10px 15px;
+}
+
+.header nav ul li a:hover {
+    /*text-decoration: underline;*/
+    border-bottom: blanchedalmond 2px solid;
+}
+
+.header-img {
+    width: 33%;
+    margin: 1%;
+}
+
+.header-text {
+    width: 65%;
+    text-align: center;
+
+    h1 {
+        font-size: 10rem;
+        margin: 1%;
+    }
+
+    nav ul {
+        list-style: none;
+        /*remover bolinhas*/
+        margin: 0px;
+        padding: 0px;
+        display: block;
+
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        /*remover sublinhado*/
+        color: #563022;
+        padding: 15px 15px 10px 15px;
+    }
+
+    nav ul li a:hover {
+        /*text-decoration: underline;*/
+        border-bottom: #563022 2px solid;
+    }
+
+}
+
+.home-banner {
+    width: 100%;
+    margin: 2% 0 2% 0;
+    background-image: url(../media/banner.png);
+    background-repeat: no-repeat;
+    max-height: 850px;
+
+    h2 {
+        font-size: 10rem;
+        margin: 12% 0 10% 10%;
+        color: blanchedalmond;
+    }
+}
+
+.panel-left {
+    width: 22%;
+    margin: 1.5%;
+}
+
+.panel-right {
+    width: 70%;
+    margin: 3% 3% 3% 1.5%;
+
+    h3 {
+        font-family: 'Bodoni Bk BT', Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 200%;
+    }
+}
+
+.cardapio-img {
+    width: 24%;
+    padding: 3%;
+}
+
+.cardapio-texto {
+    width: 64%;
+    padding: 3%;
+}
+
+.cardapio-texto h2 {
+    font-size: 4rem;
+    margin-top: 0;
+    font-family: 'Bodoni Bk BT', Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.cardapio-texto table {
+    width: 100%;
+    font-size: 3rem;
+}
+
+.cardapio-texto table tr .produto {
+    width: 90%;
+}
+
+.cardapio-texto table tr .preco {
+    width: 10%;
+}
+
+.contato-card {
+    width: 20%;
+    height: 260px;
+    margin: 2%;
+    padding: 2%;
+    background-color: #28140e;
+    color: #ffebcd;
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+
+.contato-card img {
+    width: 20%;
+    margin: 4%;
+}
+
+.onde-estamos h1 {
+    font-size: 4rem;
+}
+
+.contato-form {
+    
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #28140e;
+    color: blanchedalmond;
+}
+
+.footer-title {
+    width: 96%;
+    text-align: left;
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+.footer-panel {
+    width: 30%;
+    margin: 0 1.5%;
+        font-size: 1.5rem;
+
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        /*remover bolinhas*/
+        padding: 0px;
+        display: inline-block;
+        text-align: left;
+
+        font-size: 1.5rem;
+        text-align: left;
+
+    }
+
+    nav ul li {
+        margin: 0 0 16px 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        /*remover sublinhado*/
+        padding: 15px 15px 10px 15px;
+        color: blanchedalmond;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    p {
+        a {
+            color: blanchedalmond;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .footer-item {
+        text-align: center;
+    }
+
+    .footer-center {
+
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+.footer-direitos {
+    width: 100%;
+    text-align: center;
+}
